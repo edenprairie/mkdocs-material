@@ -91,6 +91,7 @@ jobs:
         run: |
           mkdocs gh-deploy --force
           mkdocs --version
+          
 
   # Publish Python package and Docker image
   publish:
